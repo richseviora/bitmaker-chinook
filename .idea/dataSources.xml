@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4089939627">
+    <data-source source="LOCAL" name="Rails chinook: development" uuid="621b33a4-9bb1-42bc-a894-a4c1ad0b1811">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:chinook_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails chinook: test" uuid="63c1d11e-2ed2-4d86-87d8-35f84aa2dadb">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:chinook_test</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

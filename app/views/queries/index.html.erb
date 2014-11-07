@@ -1,0 +1,30 @@
+<h2>Hip Hop Tracks</h2>
+<ul>
+  <% @hiphoptracks.each do |track| %>
+      <li><%= track.name %></li>
+  <% end %>
+</ul>
+<h2>Most Expensive MPEG audio file</h2>
+Name: <%= @most_expensive_mpeg.name %><br/>
+Price: <%= @most_expensive_mpeg.unit_price %>
+<h2>Two Oldest Artists</h2>
+<ul>
+  <% @two_oldest_artists.each do |artist| %>
+      <li><%= artist.name %> - <%= artist.created_at %></li>
+  <% end %>
+</ul>
+<h2>Two Newest Playlists</h2>
+<% @two_newest_playlists.each do |playlist| %>
+    <h3><%= playlist.name %></h3>
+    <ul>
+      <% playlist.tracks.each do |track| %>
+          <li><%= track.name %></li>
+      <% end %>
+    </ul>
+<% end %>
+<h2>Two Newest Playlists Tracks</h2>
+<ul>
+  <% @two_newest_playlist_tracks.each do |track| %>
+       <li><%= track.name %></li>
+  <% end %>
+</ul>
